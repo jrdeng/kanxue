@@ -1,0 +1,15 @@
+[package]
+name = "kanxue"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = { version = "0.22", default-features = false, features = [
+    "glow",          # Use the glow rendering backend. Alternative: "wgpu".
+] }
+log = "0.4"
+encoding_rs = "0.8"
+env_logger = "0.10"
+
+[build-dependencies]
+cc = "1.0"
