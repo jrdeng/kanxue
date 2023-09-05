@@ -5,7 +5,7 @@ mod app;
 mod win32;
 
 fn main() -> eframe::Result<()> {
-    env_logger::init(); // Log to stderr (if you run with `RUST_LOG=debug`).
+    // env_logger::init(); // this will increase about 1MB size in release build
     win32::raise_privilege();
 
     let mut native_options = eframe::NativeOptions::default();
