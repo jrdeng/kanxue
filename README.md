@@ -3,7 +3,8 @@
 
 ## 简介
 
-学习Rust语言：
+Rust练手项目。
+
 - egui/eframe
 - config
 - logger
@@ -33,3 +34,9 @@ cargo build --release
 ```
 
 以上内存地址请自行摸索。
+
+## 截图
+
+![init](./screenshots/init.png)
+![start](./screenshots/start.png)
+![battle](./screenshots/battle.png)
